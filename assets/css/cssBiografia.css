@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+    --cor1: #fff;
+    --cor2: #a4c2c4;
+    --cor3: #467e82;
+    --cor4: #09474b;
+    --cor5: #000;
+    
+    --fonte-padrao2: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head{
+    opacity: 0;
+}
+
+.banner{
+    height: 50vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('11.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.texto .titulo{
+    font-family: var(--fonte-padrao2);
+    color: var(--cor2);
+    font-size: 110px;
+    font-weight: 300;  
+}
+
+.conteiner{ 
+    padding: 0;
+    min-width: 320px;
+    margin: auto;
+    background-color:  var(--cor3);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+main{
+    padding: 0;
+    min-width: 320px;
+    margin: auto;
+    background-color:  var(--cor2);
+    width: 70%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.biografia{
+    padding: 30px;
+}
+
+.biografia__div{
+    padding-bottom: 30px;
+}
+
+.Biografia__texto{
+    font-size: 18px;
+    font-family: var(--fonte-padrao2);
+    letter-spacing: 1px;
+    text-indent: 20px;
+}
+
+.vidaAtual__h3{
+    font-family: var(--fonte-padrao2);
+    font-size: 50px;
+    color: #09474b;
+    padding-bottom: 30px;
+}
+.vidaAtual__div{
+    padding-bottom: 20px;
+}
+
+.botao{
+    background-color: #09474b;
+  
+    text-align: center;
+}
+
+a{
+    font-variant: var(--cor3);
+
+}
+
+img{
+    width: 50px;
+}

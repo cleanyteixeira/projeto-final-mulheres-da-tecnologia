@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+    --cor1: #fff;
+    --cor2: #a4c2c4;
+    --cor3: #467e82;
+    --cor4: #09474b;
+    --cor5: #000;
+    
+    --fonte-padrao2: 'Poppins', sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 0;
+    min-width: 320px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    background-color: #467e82;
+}
+
+.banner{
+    height: 50vh;
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('6.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.texto .titulo{
+    font-family: var(--fonte-padrao2);
+    color: var(--cor2);
+    font-size: 110px;
+    font-weight: 300;  
+}
+
+.projetos__titulo{
+    font-family: var(--fonte-padrao2);
+    background-color: #467e82;
+    color: var(--cor4);
+    font-size: 160px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.projetos{
+    width: 70%;
+    text-align: center;
+    padding: 0;
+    min-width: 320px;
+    margin: auto;
+    background-color: #a4c2c4;
+    text-align: center;
+    box-shadow: 10px #010505b1;
+
+}
+/*ATARI*/
+
+.projeto__atari{
+    border-top: 1px solid #09474b;
+    padding: 30px;
+}
+
+.projetos__atari-h3{
+    font-family: var(--fonte-padrao2);
+    color: var(--cor4);
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Atari{
+    padding-bottom: 30px;
+}
+
+.Atari p{
+    padding-bottom: 30px;
+    font-family: var(--fonte-padrao2);
+    width: 100%;
+    color: #0f0e0e;
+    font-size: 18px;
+
+    letter-spacing: 1px;
+    text-indent: 20px;
+}
+
+.projeto__atari-conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.Atari .projeto__atari-img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Atari .projeto__atari-img img{
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px #09474b5d;
+    margin-bottom: 40px;
+}
+.projeto__atari-img .button{
+    background-color: #09474b;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 0x;
+    cursor: pointer;
+}
+
+/* Activision */
+
+.projeto__Activision{
+    border-top: 1px solid #09474b;
+    padding: 30px;
+}
+
+.projetos__Activision-h3{
+    font-family: var(--fonte-padrao2);
+    color: var(--cor4);
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Activision{
+    padding-bottom: 30px;
+}
+
+.Activision p{
+    padding-bottom: 30px;
+    font-family: var(--fonte-padrao2);
+    width: 100%;
+    color: #0f0e0e;
+    font-size: 18px;
+
+    letter-spacing: 1px;
+    text-indent: 20px;
+}
+
+.projeto__Activision-conteiner{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Activision .projeto__Activision-img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Activision .projeto__Activision-img img{
+    width: 600px;
+    height: 400px;
+    box-shadow: 5px 5px #09474b5d;
+    margin-bottom: 40px;
+}
+.projeto__Activision-img .button{
+    background-color: #09474b;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 0x;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Outros projetos */
+
+.projeto__outros{
+    border-top: 1px solid #09474b;
+    padding: 30px;
+}
+
+.projetos__outros-h3{
+    font-family: var(--fonte-padrao2);
+    color: var(--cor4);
+    font-size: 100px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.outros{
+    padding-bottom: 30px;
+}
+
+.outros p{
+    padding-bottom: 30px;
+    font-family: var(--fonte-padrao2);
+    width: 100%;
+    color: #0f0e0e;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-indent: 20px;
+}
+
+.projeto__outros-conteiner{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.outros .projeto__outros-img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.outros .projeto__outros-img img{
+    width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px #09474b5d;
+    margin-top: 40;
+}
+
+.projeto__outros-img .button{
+    background-color: #09474b;
+    text-decoration: noneoutros;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    margin: 0x;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+/*footer*/
+
+.botao{
+    background-color: #09474b;
+  
+    text-align: center;
+}
+
+a{
+    font-variant: var(--cor3);
+
+}
+
+img{
+    width: 50px;
+}

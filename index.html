@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Carol Shaw</title>
+</head>
+<body>
+    <nav>
+
+        <div class="logo">
+            <a href="https://projetolua.ifce.edu.br/revista/carol-shaw-a-primeira-mulher-desenvolvedora-de-jogos-eletronicos/"> Mais Informações </a>
+        </div>
+
+        <ul class="menu-desktop">
+            <li> <a href="biografia.html"> Biografia </a> </li>
+            <li> <a href="projetos.html"> Projetos </a> </li>
+            <li> <a href="galeria.html"> Galeria </a> </li>
+        </ul>
+
+        <ul class="menu-mobile">
+            <div class="icon-close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <li> <a href="biografia.html"> Biografia </a> </li>
+            <li> <a href="projetos.html"> Projetos </a> </li>
+            <li> <a href="galeria.html"> Galeria </a> </li>
+        </ul>
+
+        <div class="menu-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    
+    </nav>
+
+    <section class="banner">
+        <div class="texto">
+           <h1 class="titulo">Carol Shaw</h1>
+           <h2 class="sub_titulo">Primeira mulher game designer</h2>
+        </div>
+    </section>
+
+
+    <footer id="contato">
+
+        <h2 class="footer__texto-h2">Feito por Cleany Teixeira</h2>       
+
+            <div class="footer__socialmidia">  
+                <a href="https://www.instagram.com/cleany.code/" class="footer__link" target="_blank" >
+                    <img class="icone" src="assets/icons/iconmonstr-instagram-11.svg" alt="icone instagram" title="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/cleanyteixeira/" class="footer__link" target="_blank">
+                    <img class="icone" src="assets/icons/iconmonstr-linkedin-1.svg" alt="icone linkedin" title="Linkedin">
+                </a>
+                <a href="https://github.com/cleanyteixeira" class="footer__link" target="_blank">
+                    <img class="icone" src="assets/icons/iconmonstr-github-1.svg" alt="icone github" title="GitHub">
+                </a>
+            </div>   
+
+            <div class="footer__texto">
+                <p>
+                    Página desenvolvida como projeto final do programa de imersão Programação Web para Iniciantes, promovido pela WoMakers Code.
+                </p>      
+            </div>
+
+            <div class="footer__copyright">
+                &#169
+                2023 all rights reserved
+            </div>
+    </footer>
+
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        var iconClose = document.querySelector('.menu-mobile .icon-close')
+
+        menuIcon.addEventListener('click', function(){
+            menuMobile.classList.add('ativo')
+        });
+        iconClose.addEventListener('click', function(){
+            menuMobile.classList.remove('ativo')
+        });
+
+    </script>
+
+</body>
+</html>
