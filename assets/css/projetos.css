@@ -58,21 +58,20 @@ main{
 }
 
 .projetos{
-    width: 70%;
     text-align: center;
-    padding: 0;
     min-width: 320px;
-    margin: auto;
+    padding: 0;
     background-color: #a4c2c4;
-    text-align: center;
-    box-shadow: 10px #010505b1;
-
+    width: 100%;
+    max-width: 900px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 /*ATARI*/
 
 .projeto__atari{
     border-top: 1px solid #09474b;
-    padding: 30px;
 }
 
 .projetos__atari-h3{
@@ -119,13 +118,14 @@ main{
     margin-bottom: 40px;
 }
 .projeto__atari-img .button{
-    background-color: #09474b;
+    border: none;
     text-decoration: none;
     font-size: 18px;
     border-radius: 5px;
     transition: 0.3s;
     margin: 0x;
     cursor: pointer;
+    
 }
 
 /* Activision */
